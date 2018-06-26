@@ -4,7 +4,9 @@
   "description": "mirror data collection app ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
+    "server": "nodemon src/server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
     "express": "^4.16.3"
   },
   "devDependencies": {
+    "concurrently": "^3.6.0",
     "eslint": "^5.0.1",
     "nodemon": "^1.17.5"
   }

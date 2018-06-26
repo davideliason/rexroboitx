@@ -2,7 +2,7 @@
 ### [David Eliason](http://davethemaker.com/)
 ### June 26, 2017
 
-#### Description
+### Description
 
 **General:** 
 
@@ -22,15 +22,15 @@ The goals of this app will be the following:
 5. Possible addition: use of react-router to build out single page app (parse different data points)
 
 
-Areas To Learn:
+**Areas To Learn:**
 
 - working with react, redux
 - Heroku deployment with node.js, etc
 - tying everything together
 
 
-##### Steps
+#### Steps
 
 
-##### Lessons Learned
+#### Lessons Learned
 

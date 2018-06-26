@@ -2,7 +2,7 @@
   "name": "where-is-david",
   "version": "0.1.0",
   "description": "mirror data collection app ",
-  "main": "index.js",
+  "main": "src/server/index.js",
   "scripts": {
     "start": "node src/server/index.js",
     "build": "webpack --mode production",

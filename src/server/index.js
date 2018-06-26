@@ -5,7 +5,7 @@ const app 		= express();
 
 // serve static files from dist folder
 app.use(express.static("dist"));
-app.use("/api/getUserName", (req,res) => 
+app.use("/api/getDavidName", (req,res) => 
 	res.send({ username: sampleUser.name})
 	);
 

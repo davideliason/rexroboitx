@@ -31,7 +31,10 @@ The goals of this app will be the following:
 
 
 #### Steps
-1. create repo with package.json
+1. create repo with package.json, set up Git tracking
+2. Folder structure: src --> client [react,css,js] server
+3. create .babelrc file to config Babel, which will be used to work with ES6 and React in regular browsers
+4.
 
 #### Lessons Learned
 

@@ -37,7 +37,10 @@ The goals of this app will be the following:
 	- preset **'env'** allows us to use babel-preset-es2015, babel-preset=es2016, and babel-preset-es2017 ==> es5
 	- preset **'react'** allows us to use JSX ==> regular JS
 4. Install [ESLint](https://eslint.org/docs/user-guide/getting-started) and config with .eslintrc.json file
-5. 
+5. Install nodemon and config in nodemon.json file
+	- nomeon monitors server code and restarts the server on such changes, good for dev not productions
+	- watching the files in 'src/server'
+6. spin up **Express server** at src/server/index.js
 
 #### Lessons Learned
 

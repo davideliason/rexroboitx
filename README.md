@@ -4,7 +4,7 @@
 
 #### Description
 
-General: 
+**General:** 
 
 My ultimate goal is to create a raspberry pi server rendering real-time data using React components, using data from connected sensors (like GPS module). This would include node.js and express on the backend, with React/Redux on the front-end. 
 
@@ -12,7 +12,7 @@ This application's goal is to create a sandbox working towards that goal - it wi
 
 By the way, the reason why data persistence will be using state/store is because the next level would be to enable data persistence using a variety of options, depending on the env and/or project: possibly cloud hosting or a local instance of a db (on the rpi for example.) But connecting these dots will be a great first step :)
 
-Sepcifically: 
+**Sepcifically:**
 
 The goals of this app will be the following:
 1. work with node.js and express to spin up a server

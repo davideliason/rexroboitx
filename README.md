@@ -33,10 +33,15 @@ The goals of this app will be the following:
 #### Steps
 1. create repo with package.json, set up Git tracking
 2. Folder structure: src --> client [react,css,js] server
-3. create .babelrc file to config Babel, which will be used to work with ES6 and React in regular browsers
-4.
+3. create .babelrc file to config Babel, which will be used to work with ES6 and React in regular browsers. Presets are needed plugins to work: 
+	- preset **'env'** allows us to use babel-preset-es2015, babel-preset=es2016, and babel-preset-es2017 ==> es5
+	- preset **'react'** allows us to use JSX ==> regular JS
+4. Install [ESLint](https://eslint.org/docs/user-guide/getting-started) and config with .eslintrc.json file
+5. 
 
 #### Lessons Learned
+
+- 
 
 #### Resources
 [Heroku related](https://medium.com/@katestamas/heroku-deployment-with-react-node-mongoose-and-webpack-ff37bd80d7af)

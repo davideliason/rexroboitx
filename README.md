@@ -1,4 +1,4 @@
-## Where is David?
+## Where is Rex?
 ### [David Eliason](http://davethemaker.com/)
 ### June 26, 2017
 
